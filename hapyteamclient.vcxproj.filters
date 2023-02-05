@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\HAPYICON">
+      <UniqueIdentifier>{f6db2b73-ee11-448d-bebe-7c978b03207c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\hapyteamclient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="HAPYICON\asm.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\assembly.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\Bfolder.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\CATPart.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\CATProduct.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\check.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\check2.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\cpsh.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\CSV.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\DGN.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\dwg.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\dxf.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\email.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\EML.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\excel.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\file32.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\filecat32.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\FileIsNotInVault.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\folder.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\GIF.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\hmbb32.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\iam.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\icon1.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\icon2.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\idw.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\Image.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\ipj.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\ipt.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\JPG.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\MPP.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\NoLocalFile.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\NotLogin.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\nwc.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\nwf.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\nx_asm.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\OneNote.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\OUTLOOK.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\part.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\PDF.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\PICTURE.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\PNG.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\PPT.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\profolderblack.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\profolderwhite.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\PRT.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\rfa.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\rtf.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\rvm.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\rvt.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\search.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\sldasm.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\slddrw.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\sldprt.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\Smart3D.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\TXT.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\unknow.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\VIDEO.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\vsd.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\Wfolder.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\word.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\Yfolder.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\ZIP.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\向下.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Workspace.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="HAPYICON\checkoutBySelfB.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\checkoutBySelfW.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\checkOutBySomeOneB.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\checkOutBySomeOneW.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\FileArchivedB.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\FileArchivedW.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\filecheckinB.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\FileCheckinW.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="res\hanna.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="res\hapyteamclientDoc.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </None>
+    <None Include="HAPYICON\ipn.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hapyteamclient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\test.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HAPYICON\FileCheckin.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </Image>
+    <Image Include="HAPYICON\filecheckin2.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </Image>
+    <Image Include="HAPYICON\LocalFileNotMatch.ico">
+      <Filter>资源文件\HAPYICON</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachedFileDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ByReferenceListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMethods.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDetailsLayoutView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderListColumnSelectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderListView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hapyteamclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hapyteamclientDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RevisionListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HAPYTheme.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectTreeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnotateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSelectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePropertyBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachedFileDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ByReferenceListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMethods.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDetailsLayoutView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderListColumnSelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderListView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hapyteamclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hapyteamclientDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RevisionListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VersionListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HAPYTheme.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectTreeView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePropertyBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

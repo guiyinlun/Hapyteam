@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="my|Win32">
+      <Configuration>my</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="my|x64">
+      <Configuration>my</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9AF46A74-34F4-4C81-B00E-1759D07F3F4C}</ProjectGuid>
+    <RootNamespace>hapyteamclient</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='my|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='my|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='my|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='my|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='my|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)</OutDir>
+    <IncludePath>$(Boost);$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='my|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)</OutDir>
+    <IncludePath>$(IncludePath);</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+    <IntDir>$(Platform)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IncludePath>$(Boost);$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HapyTeamCore\Core;$(SolutionDir)\..\3rdParts\rapidjson\include;$(SolutionDir)\..\3rdParts\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\$(Platform);$(SolutionDir)\..\3rdParts\curl\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\lssh2\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\openssl\$(Platform)\$(Configuration)\lib;$(SolutionDir)\..\3rdParts\zlib\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\wxWidgets-3.1.7\lib\vc_x64_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HapyTeamCore.lib;libcurld.lib;libssh2d.lib;libcrypto.lib;libssl.lib;zlibwapid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;libcpmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='my|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HapyTeamCore\Core;$(SolutionDir)\..\3rdParts\rapidjson\include;$(SolutionDir)\..\3rdParts\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\$(Platform);$(SolutionDir)\..\3rdParts\curl\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\lssh2\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\openssl\$(Platform)\$(Configuration)\lib;$(SolutionDir)\..\3rdParts\zlib\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\wxWidgets-3.1.7\lib\vc_x64_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HapyTeamCore.lib;libcurld.lib;libssh2d.lib;libcrypto.lib;libssl.lib;zlibwapid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;libcpmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_UNICODE;_WINDOWS;_DEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;RAPIDJSON_64BIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BCGCBPro)\BCGCBPro;..\HapyTeamCore;$(SolutionDir)\..\3rdParts\rapidjson\include;$(SolutionDir)\..\3rdParts\curl\include;$(SolutionDir)\..\3rdParts\CCppOfficeConvertPdf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <CompileAsManaged>
+      </CompileAsManaged>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\$(Platform);$(SolutionDir)\..\3rdParts\curl\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\lssh2\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\openssl\$(Platform)\$(Configuration)\lib;$(SolutionDir)\..\3rdParts\CCppOfficeConvertPdf\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\zlib\$(Platform)\$(Configuration);D:\Boost1_8\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HapyTeamCore.lib;libcurld.lib;libssh2d.lib;libcrypto.lib;libssl.lib;zlibwapid.lib;CppOfficeConvertPdf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;libcpmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='my|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\BCGSoft\BCGControlBarPro\BCGCBPro;..\HapyTeamCore\Core;$(SolutionDir)\..\3rdParts\rapidjson\include;$(SolutionDir)\..\3rdParts\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\BCGSoft\BCGControlBarPro\Bin64\;$(SolutionDir)$(Configuration)\$(Platform);$(SolutionDir)\..\3rdParts\curl\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\lssh2\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\openssl\$(Platform)\$(Configuration)\lib;$(SolutionDir)\..\3rdParts\zlib\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\wxWidgets-3.1.7\lib\vc_x64_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HapyTeamCore.lib;libcurld.lib;libssh2d.lib;libcrypto.lib;libssl.lib;zlibwapid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;libcpmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BCGCBPro)\BCGCBPro;..\HapyTeamCore;$(SolutionDir)\..\3rdParts\rapidjson\include;$(SolutionDir)\..\3rdParts\curl\include;$(SolutionDir)\..\3rdParts\CCppOfficeConvertPdf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>HapyTeamCore.lib;libcrypto.lib;libssl.lib;libcurl.lib;libssh2.lib;zlibwapi.lib;CppOfficeConvertPdf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib;libcpmtd.lib;atlsd.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>$(BCGCBPro)\Bin64;$(SolutionDir)$(Configuration)\$(Platform);$(SolutionDir)\..\3rdParts\curl\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\lssh2\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\openssl\$(Platform)\$(Configuration)\lib;$(SolutionDir)\..\3rdParts\CCppOfficeConvertPdf\$(Platform)\$(Configuration);$(SolutionDir)\..\3rdParts\zlib\$(Platform)\$(Configuration);$(Boost)\stage\lib;D:\Boost1_8\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="HAPYICON\asm.ico" />
+    <None Include="HAPYICON\assembly.ico" />
+    <None Include="HAPYICON\Bfolder.ico" />
+    <None Include="HAPYICON\CATPart.ico" />
+    <None Include="HAPYICON\CATProduct.ico" />
+    <None Include="HAPYICON\check.ico" />
+    <None Include="HAPYICON\check2.ico" />
+    <None Include="HAPYICON\checkoutBySelfB.ico" />
+    <None Include="HAPYICON\checkoutBySelfW.ico" />
+    <None Include="HAPYICON\checkOutBySomeOneB.ico" />
+    <None Include="HAPYICON\checkOutBySomeOneW.ico" />
+    <None Include="HAPYICON\cpsh.ico" />
+    <None Include="HAPYICON\CSV.ico" />
+    <None Include="HAPYICON\DGN.ico" />
+    <None Include="HAPYICON\dwg.ico" />
+    <None Include="HAPYICON\dxf.ico" />
+    <None Include="HAPYICON\email.ico" />
+    <None Include="HAPYICON\EML.ico" />
+    <None Include="HAPYICON\excel.ico" />
+    <None Include="HAPYICON\file32.ico" />
+    <None Include="HAPYICON\FileArchivedB.ico" />
+    <None Include="HAPYICON\FileArchivedW.ico" />
+    <None Include="HAPYICON\filecat32.ico" />
+    <None Include="HAPYICON\filecheckinB.ico" />
+    <None Include="HAPYICON\FileCheckinW.ico" />
+    <None Include="HAPYICON\FileIsNotInVault.ico" />
+    <None Include="HAPYICON\folder.ico" />
+    <None Include="HAPYICON\GIF.ico" />
+    <None Include="HAPYICON\hmbb32.ico" />
+    <None Include="HAPYICON\iam.ico" />
+    <None Include="HAPYICON\icon1.ico" />
+    <None Include="HAPYICON\icon2.ico" />
+    <None Include="HAPYICON\idw.ico" />
+    <None Include="HAPYICON\Image.ico" />
+    <None Include="HAPYICON\ipj.ico" />
+    <None Include="HAPYICON\ipn.ico" />
+    <None Include="HAPYICON\ipt.ico" />
+    <None Include="HAPYICON\JPG.ico" />
+    <None Include="HAPYICON\MPP.ico" />
+    <None Include="HAPYICON\NoLocalFile.ico" />
+    <None Include="HAPYICON\NotLogin.ico" />
+    <None Include="HAPYICON\nwc.ico" />
+    <None Include="HAPYICON\nwf.ico" />
+    <None Include="HAPYICON\nx_asm.ico" />
+    <None Include="HAPYICON\OneNote.ico" />
+    <None Include="HAPYICON\OUTLOOK.ico" />
+    <None Include="HAPYICON\part.ico" />
+    <None Include="HAPYICON\PDF.ico" />
+    <None Include="HAPYICON\PICTURE.ico" />
+    <None Include="HAPYICON\PNG.ico" />
+    <None Include="HAPYICON\PPT.ico" />
+    <None Include="HAPYICON\profolderblack.ico" />
+    <None Include="HAPYICON\profolderwhite.ico" />
+    <None Include="HAPYICON\PRT.ico" />
+    <None Include="HAPYICON\rfa.ico" />
+    <None Include="HAPYICON\rtf.ico" />
+    <None Include="HAPYICON\rvm.ico" />
+    <None Include="HAPYICON\rvt.ico" />
+    <None Include="HAPYICON\search.ico" />
+    <None Include="HAPYICON\sldasm.ico" />
+    <None Include="HAPYICON\slddrw.ico" />
+    <None Include="HAPYICON\sldprt.ico" />
+    <None Include="HAPYICON\Smart3D.ico" />
+    <None Include="HAPYICON\TXT.ico" />
+    <None Include="HAPYICON\unknow.ico" />
+    <None Include="HAPYICON\VIDEO.ico" />
+    <None Include="HAPYICON\vsd.ico" />
+    <None Include="HAPYICON\Wfolder.ico" />
+    <None Include="HAPYICON\word.ico" />
+    <None Include="HAPYICON\Yfolder.ico" />
+    <None Include="HAPYICON\ZIP.ico" />
+    <None Include="HAPYICON\向下.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\hanna.ico" />
+    <None Include="res\hapyteamclient.rc2" />
+    <None Include="res\hapyteamclientDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar.png" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\Workspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hapyteamclient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HAPYICON\FileCheckin.ico" />
+    <Image Include="HAPYICON\filecheckin2.ico" />
+    <Image Include="HAPYICON\LocalFileNotMatch.ico" />
+    <Image Include="res\test.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountInfoDlg.h" />
+    <ClInclude Include="AttachedFileDlg.h" />
+    <ClInclude Include="BasicInfoDlg.h" />
+    <ClInclude Include="ByReferenceListDlg.h" />
+    <ClInclude Include="CustomMethods.h" />
+    <ClInclude Include="FileSelectDlg.h" />
+    <ClInclude Include="FileDetailsLayoutView.h" />
+    <ClInclude Include="FilePropertyBar.h" />
+    <ClInclude Include="FolderListColumnSelectDlg.h" />
+    <ClInclude Include="FolderListView.h" />
+    <ClInclude Include="hapyteamclient.h" />
+    <ClInclude Include="hapyteamclientDoc.h" />
+    <ClInclude Include="HAPYTheme.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ProjectListDlg.h" />
+    <ClInclude Include="ProjectTreeView.h" />
+    <ClInclude Include="AnnotateDlg.h" />
+    <ClInclude Include="ReferenceListDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RevisionListDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserInfoDlg.h" />
+    <ClInclude Include="VersionListDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountInfoDlg.cpp" />
+    <ClCompile Include="AttachedFileDlg.cpp" />
+    <ClCompile Include="BasicInfoDlg.cpp" />
+    <ClCompile Include="ByReferenceListDlg.cpp" />
+    <ClCompile Include="CustomMethods.cpp" />
+    <ClCompile Include="FileSelectDlg.cpp" />
+    <ClCompile Include="FileDetailsLayoutView.cpp" />
+    <ClCompile Include="FilePropertyBar.cpp" />
+    <ClCompile Include="FolderListColumnSelectDlg.cpp" />
+    <ClCompile Include="FolderListView.cpp" />
+    <ClCompile Include="hapyteamclient.cpp" />
+    <ClCompile Include="hapyteamclientDoc.cpp" />
+    <ClCompile Include="HAPYTheme.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ProjectListDlg.cpp" />
+    <ClCompile Include="ProjectTreeView.cpp" />
+    <ClCompile Include="AnnotateDlg.cpp" />
+    <ClCompile Include="ReferenceListDlg.cpp" />
+    <ClCompile Include="RevisionListDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserInfoDlg.cpp" />
+    <ClCompile Include="VersionListDlg.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="hapyteamclient.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
