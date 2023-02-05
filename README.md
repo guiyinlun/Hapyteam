@@ -1,5 +1,7 @@
 # Hapyteam
-Hapyteam客户端
+只上传了部分代码
+
+Hapyteam客户端界面截图
 
 ![微信图片_20230205155234](https://user-images.githubusercontent.com/98374648/216807848-2f04e0af-c8a1-44cb-b427-ff6241a35c1b.jpg)
 
